@@ -1,14 +1,6 @@
-import React from "react";
-import Landing from "./pages/landing";
-
-function App() {
-  
-
-  return (
-    <div>
-      <Landing />
-    </div>
-  )
+import Home from "./pages/Home";
+ 
+export default function App() {
+  return <Home />;
 }
-
-export default App
+ 
