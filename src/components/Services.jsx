@@ -1,5 +1,5 @@
 import { Code2, Layers, Smartphone } from "lucide-react";
-import FadeIn from "./FadeIn";
+import FadeIn from "./Fadein.jsx";
 
 const SERVICES = [
   {

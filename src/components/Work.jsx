@@ -1,5 +1,5 @@
 import { Code2, ArrowUpRight, ExternalLink } from "lucide-react";
-import FadeIn from "./FadeIn";
+import FadeIn from "./FadeIn.jsx";
 import SyncasifyImg from "../assets/syncasify.png"
 
 const PROJECTS = [

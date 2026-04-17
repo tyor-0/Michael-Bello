@@ -1,5 +1,5 @@
 import { Download } from "lucide-react";
-import FadeIn from "./FadeIn";
+import FadeIn from "./FadeIn.jsx";
 import Html from "../assets/html.png"
 import Css from "../assets/css.png"
 import Javascript from "../assets/javascript.png"
