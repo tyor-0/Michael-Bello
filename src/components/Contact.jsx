@@ -83,7 +83,7 @@ function Contact() {
 };
 
 return (
-  <section id="contact" className="bg-[#101010] py-28">
+  <section id="contact" className="bg-[#101010] pt-25">
     <div className="max-w-7xl mx-auto px-6 lg:px-12">
       <FadeIn className="mb-16">
         <p className="text-[#FF5024] text-xs font-bold tracking-[0.25em] uppercase mb-3">
