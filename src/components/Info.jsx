@@ -74,15 +74,13 @@ function Info() {
                 <span className="text-white font-semibold">
                   Michael Omotayo Bello
                 </span>
-                , a highly skilled Software Engineer with{" "}
-                <strong className="text-[#FF5024]">3+ years of experience</strong>{" "}
-                in Full-Stack Development. I'm passionate about building scalable
-                solutions and optimizing performance across the entire stack.
+                , a Computer Engineering graduate with advanced training in{" "}
+                <strong className="text-[#FF5024]">Software Engineering</strong>{" "}
+                and a strong foundation in full-stack development.
               </p>
               <p className="text-white/40 leading-relaxed mb-8">
                 Skilled in modern web technologies including HTML, CSS, Bootstrap, TailwindCSS, JavaScript, TypeScript, ReactJS, and NodeJS, with experience in cloud-based data solutions using MongoDB and SQL. Comfortable working in
                 Agile environments with hands-on exposure to CI/CD pipelines and microservices architecture. Driven by a forward-looking curiosity about emerging technologies and committed to building solutions that bridge engineering principles with real-world impact.
-
               </p>
               <a
                 href="https://drive.google.com/file/d/1WBmhivDJVG2iVtj29wcbcZy1zJLflQbB/view?usp=drive_link"
