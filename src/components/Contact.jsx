@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
-import FadeIn from "./FadeIn.jsx";
+import FadeIn from "@/components/Fadein";
 
 const SOCIALS = [
   {
