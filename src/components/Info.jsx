@@ -1,5 +1,5 @@
 import { Download } from "lucide-react";
-import FadeIn from "@/components/Fadein";
+
 import Html from "../assets/html.png"
 import Css from "../assets/css.png"
 import Javascript from "../assets/javascript.png"
@@ -9,6 +9,7 @@ import Node from "../assets/node.png"
 import MongoDB from "../assets/mongo.png"
 import GitHub from "../assets/github.png"
 import Figma from "../assets/css.png"
+import FadeIn from "@/components/Fadein";
 
 const EXPERIENCE = [
   {
