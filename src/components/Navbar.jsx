@@ -23,11 +23,10 @@ function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
           ? "bg-[#101010]/95 backdrop-blur-md border-b border-white/5 shadow-xl"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-[72px]">
         {/* Logo */}
@@ -47,11 +46,10 @@ function Navbar() {
               key={l.label}
               href={l.href}
               onClick={() => setActive(l.label)}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
-                active === l.label
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${active === l.label
                   ? "text-[#FF5024] bg-[#FF5024]/10"
                   : "text-white/60 hover:text-white hover:bg-white/5"
-              }`}
+                }`}
             >
               {l.label}
             </a>
@@ -99,7 +97,9 @@ function Navbar() {
                 </a>
               ))}
               <a
-                href="#contact"
+                href="https://wa.me/2349010765760"
+                target="_blank"                
+                rel="noopener noreferrer"
                 className="mt-2 px-4 py-3 rounded-lg bg-[#FF5024] text-white text-sm font-semibold text-center"
                 onClick={() => setOpen(false)}
               >
