@@ -24,8 +24,8 @@ function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-          ? "bg-[#101010]/95 backdrop-blur-md border-b border-white/5 shadow-xl"
-          : "bg-transparent"
+        ? "bg-[#101010]/95 backdrop-blur-md border-b border-white/5 shadow-xl"
+        : "bg-transparent"
         }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-[72px]">
@@ -47,8 +47,8 @@ function Navbar() {
               href={l.href}
               onClick={() => setActive(l.label)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${active === l.label
-                  ? "text-[#FF5024] bg-[#FF5024]/10"
-                  : "text-white/60 hover:text-white hover:bg-white/5"
+                ? "text-[#FF5024] bg-[#FF5024]/10"
+                : "text-white/60 hover:text-white hover:bg-white/5"
                 }`}
             >
               {l.label}
@@ -74,6 +74,7 @@ function Navbar() {
       </div>
 
       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -84,21 +85,30 @@ function Navbar() {
           >
             <div className="px-6 py-4 flex flex-col gap-1">
               {NAV_LINKS.map((l) => (
-                <a
+                <button
                   key={l.label}
-                  href={l.href}
                   onClick={() => {
+                    const section = document.querySelector(l.href);
+
+                    if (section) {
+                      section.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                      });
+                    }
+
                     setActive(l.label);
                     setOpen(false);
                   }}
-                  className="px-4 py-3 rounded-lg text-white/70 hover:text-white hover:bg-white/5 text-sm font-medium transition-colors"
+                  className="px-4 py-3 rounded-lg text-left text-white/70 hover:text-white hover:bg-white/5 text-sm font-medium transition-colors"
                 >
                   {l.label}
-                </a>
+                </button>
               ))}
+
               <a
                 href="https://wa.me/2349010765760"
-                target="_blank"                
+                target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 px-4 py-3 rounded-lg bg-[#FF5024] text-white text-sm font-semibold text-center"
                 onClick={() => setOpen(false)}

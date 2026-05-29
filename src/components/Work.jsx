@@ -18,6 +18,13 @@ const PROJECTS = [
     link: "#",
     color: "#FF7A50",
   },
+  {
+    title: "Megamart Mall",
+    desc: "MegaMart is a full-stack multi-department retail web app that lets customers shop across a supermarket, pharmacy, eatery, and phone store — with an admin dashboard to manage products, orders, and inventory.",
+    tags: ["React", "Tailwind", "Node.js", "Express", "MongoDB",],
+    link: "https://megamartmall.com/",
+    color: "#FF7A50",
+  },
 ];
 
 function Work() {

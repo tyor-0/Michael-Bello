@@ -47,9 +47,9 @@ function Info() {
           <p className="text-[#FF5024] text-xs font-bold tracking-[0.25em] uppercase mb-3">
             About
           </p>
-          <h2 className="text-4xl lg:text-5xl font-black text-white">
+          {/* <h2 className="text-4xl lg:text-5xl font-black text-white">
             My <span className="text-white/20">Info</span>
-          </h2>
+          </h2> */}
         </FadeIn>
 
         {/* About Me */}
@@ -83,7 +83,7 @@ function Info() {
                 Agile environments with hands-on exposure to CI/CD pipelines and microservices architecture. Driven by a forward-looking curiosity about emerging technologies and committed to building solutions that bridge engineering principles with real-world impact.
               </p>
               <a
-                href="https://drive.google.com/file/d/1WBmhivDJVG2iVtj29wcbcZy1zJLflQbB/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1hGZOfScAeNwWcx6Gen13CCZzcIw2OHZG/view?usp=drive_link"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#FF5024] text-white font-semibold hover:bg-[#e04420] transition-colors duration-200 shadow-lg shadow-[#FF5024]/20"
               >
                 <Download size={16} /> Download CV
