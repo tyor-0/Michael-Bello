@@ -15,7 +15,7 @@ const PROJECTS = [
     title: "Rovax AI",
     desc: "ROVAX AI helps traders discover, analyze, and act on high-quality trading opportunities with AI-driven signals and instant notifications.", 
     tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "Firebase Cloud Messaging (FCM)", "Capacitor", "Deno Edge Functions"],  
-    link: "https://rovax-ai.lovable.app/",
+    link: "https://app.rovax-ai.com/",
     color: "#FF7A50",
     image: SyncasifyImg,     //change image 
   },

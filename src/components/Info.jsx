@@ -13,10 +13,16 @@ import FadeIn from "@/components/Fadein";
 
 const EXPERIENCE = [
   {
-    company: "Skyhill",
-    role: "Digital Marketing Specialist",
-    date: "Oct 2025",
-    desc: "Managed and optimized digital campaigns using Google Ads, Facebook Ads, and HubSpot to drive traffic, automate lead generation, and improve conversion rates through data-driven decisions.",
+    company: "Vnet Global Innovation",
+    role: "Full Stack Developer",
+    date: "June 2026",
+    desc: "Developed, debugged, and maintained full-stack web and mobile applications for real-world business clients, translating project requirements into scalable, high-quality software solutions. Collaborated within an agile development environment to design, implement, test, and optimize applications using modern software engineering principles, ensuring maintainable code, reliable performance, and successful project delivery.",
+  },
+  {
+    company: "Nithub",
+    role: "Software Engineer",
+    date: "May 2026",
+    desc: "Developed production-ready full-stack software solutions by applying object-oriented design, SOLID principles, data structures, algorithms, and modern engineering practices to build scalable, maintainable, and high-performance applications.",
   },
   {
     company: "FAAN, Murtala Muhammed International Airport",
@@ -35,6 +41,7 @@ const SKILLS = [
   { name: "Tailwind CSS", icon: Tailwind },
   { name: "Node.js", icon: Node },
   { name: "MongoDB", icon: MongoDB },
+  { name: "Supabase", icon: MongoDB },
   { name: "Git / GitHub", icon: GitHub },
   { name: "Figma", icon: "🎭" },
 ];
