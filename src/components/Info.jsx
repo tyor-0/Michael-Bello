@@ -90,7 +90,7 @@ function Info() {
                 Agile environments with hands-on exposure to CI/CD pipelines and microservices architecture. Driven by a forward-looking curiosity about emerging technologies and committed to building solutions that bridge engineering principles with real-world impact.
               </p>
               <a
-                href="https://drive.google.com/file/d/1hGZOfScAeNwWcx6Gen13CCZzcIw2OHZG/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1hGZOfScAeNwWcx6Gen13CCZzcIw2OHZG/view?usp=drive_link"//add the hello cv link 
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#FF5024] text-white font-semibold hover:bg-[#e04420] transition-colors duration-200 shadow-lg shadow-[#FF5024]/20"
               >
                 <Download size={16} /> Download CV

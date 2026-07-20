@@ -7,7 +7,7 @@ const PROJECTS = [
     title: "Reconciliation System",
     desc: "A high-performance Transaction Reconciliation System that automatically compares financial transaction records from two independent systems, detects discrepancies, and generates detailed reconciliation reports for auditing and operational accuracy.",
     tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "TanStack Query", "TanStack Table", "Axios", "Node.js", "Express.js", "Worker Threads", "Multer", "CSV Parser", "Winston Logger", "REST APIs", "Vercel", "Render"],
-    link: "https://reconciliation-system.vercel.app/",
+    link: "https://reconciliationsystem.vercel.app/",
     color: "#FF7A50",
     image: SyncasifyImg,   //change image 
   },
