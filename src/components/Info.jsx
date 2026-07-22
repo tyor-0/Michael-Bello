@@ -15,7 +15,7 @@ const EXPERIENCE = [
   {
     company: "Vnet Global Innovation",
     role: "Full Stack Developer",
-    date: "June 2026",
+    date: "Jan 2026",
     desc: "Developed, debugged, and maintained full-stack web and mobile applications for real-world business clients, translating project requirements into scalable, high-quality software solutions. Collaborated within an agile development environment to design, implement, test, and optimize applications using modern software engineering principles, ensuring maintainable code, reliable performance, and successful project delivery.",
   },
   {
@@ -90,7 +90,7 @@ function Info() {
                 Agile environments with hands-on exposure to CI/CD pipelines and microservices architecture. Driven by a forward-looking curiosity about emerging technologies and committed to building solutions that bridge engineering principles with real-world impact.
               </p>
               <a
-                href="https://drive.google.com/file/d/1hGZOfScAeNwWcx6Gen13CCZzcIw2OHZG/view?usp=drive_link"//add the hello cv link 
+                href="https://drive.google.com/file/d/1nreuoyWy6oDCEGxGTp0WOR19WIYqV8Gc/view?usp=drivesdk"//add the hello cv link 
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#FF5024] text-white font-semibold hover:bg-[#e04420] transition-colors duration-200 shadow-lg shadow-[#FF5024]/20"
               >
                 <Download size={16} /> Download CV
